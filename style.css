@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(211, 211, 224);
+    font-family: helvetica;
+    margin: 0px;
+    font-size: 1.5vm;
+}
+
+
+h1{
+    margin: 0px;
+    padding: 8px;
+    font-family:"Fredoka One", sans-serif;
+  
+   
+}
+
+ul{
+    margin: 0px;
+}
+
+body > header{
+    background-color: rgb(166, 166, 193);
+    display: flex;
+    height: 9vh;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#nav-ul{
+    display: flex;
+
+}
+
+#nav-ul > li {
+   padding: 8px;
+   margin: 6px;
+}
+
+body> header> nav> ul{
+    list-style: none;
+    text-decoration: none;
+
+} 
+
+.navbutton{
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10%;
+
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+
+}
+
+form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body > footer{
+    background-color: rgb(166, 166, 193);
+    display: flex;
+
+}
+
+img{
+    border-radius: 50%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 50px;
+}
+
+#footer-ul> div> li > a {
+    color: black;
+    text-decoration: none;
+}
